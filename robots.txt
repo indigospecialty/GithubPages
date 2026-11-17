@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://indigospecialty.github.io/sitemap.xml
+Sitemap: https://indigospecialty.github.io/GithubPages/sitemap.xml

@@ -2,7 +2,7 @@
 
 Static website for the HydroForce soil surfactant range from Indigo Specialty Products, Rocklea, Queensland. Hosted on GitHub Pages.
 
-- Live site: https://indigospecialty.github.io/
+- Live site: https://indigospecialty.github.io/GithubPages/
 - Main website: https://indigospecialty.com.au/
 
 ## Structure
@@ -19,8 +19,9 @@ Static website for the HydroForce soil surfactant range from Indigo Specialty Pr
 
 ## Publishing
 
-1. Push this folder to the root of a repository named `<username>.github.io`.
-2. In the repository, go to **Settings → Pages** and set the source to the `main` branch, root folder.
-3. If the address isn't `https://indigospecialty.github.io/`, update the canonical links, Open Graph URLs, `sitemap.xml` and `robots.txt` to match.
+1. This folder is the `GithubPages` repository in the `indigospecialty` account, so the site is served at `https://indigospecialty.github.io/GithubPages/`.
+2. In the repository, **Settings → Pages** is set to deploy from the `master` branch, root folder.
+3. If the repository is ever renamed (for example to `indigospecialty.github.io`), update the canonical links, Open Graph URLs, `sitemap.xml`, `robots.txt` and the root links in `404.html` to the new address.
+4. Search engines only read `robots.txt` at the root of a domain, so for this project site submit `sitemap.xml` in Google Search Console instead.
 
 No build step is needed.
