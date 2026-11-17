@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://indigospecialty.github.io/sitemap.xml
